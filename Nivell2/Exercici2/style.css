@@ -1,0 +1,70 @@
+
+.pelota
+{
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   animation: pelota-tenis 8s ease-out infinite alternate;
+}
+
+@keyframes pelota-tenis {
+  0%
+  {
+      top:0vh;
+      left: 0px;
+      transform: rotate(0deg);
+      width: 150px;
+      height: 100px;
+  } 
+  
+  0.5%{
+    width: 150px;
+    height:150px;
+  }
+  25%
+  {
+      top: 90vh;
+      left: 300px;
+      transform: rotate(360deg);
+      width: 150px;
+      height: 100px;
+  }    
+  25.5%{
+    width: 150px;
+    height:150px;
+  }
+  50%
+  {
+      top: 0vh;
+      left: 600px;
+      transform: rotate(0deg);
+      width: 150px;
+      height: 100px;
+  } 
+  50.5%{
+    width: 150px;
+    height:150px;
+  }   
+  75%
+  {
+      top: 90vh;
+      left: 900px;
+      transform: rotate(360deg);
+      width: 150px;
+      height: 100px;
+  } 
+  75.5%{
+    width: 150px;
+    height:150px;
+  }    
+  100%
+  {
+      top: 0vh;
+      left: 1200px;
+      transform: rotate(0deg);
+      width: 150px;
+      height: 100px;
+  }
+
+ 
+}
